@@ -1,0 +1,202 @@
+@import url('https://fonts.cdnfonts.com/css/plane-crash');
+@import url('https://fonts.cdnfonts.com/css/odin-rounded');
+@import url('https://fonts.cdnfonts.com/css/fancy-2');
+@import url('https://fonts.cdnfonts.com/css/rhythm-block');
+@import url('https://fonts.cdnfonts.com/css/mollen-personal-use');
+
+:root {
+    --background: url('images/background.jpg');
+  }
+  
+  body {
+    background: var(--background) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: auto;
+  }
+
+.navigation {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    width: 300px;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navigation ul li a {
+    margin: 0 19px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 30px;
+    background-color: rgb(43, 40, 40, 0.5);
+}
+
+.header .title {
+    width: 999px;
+    margin-left: 33px;
+}
+
+.header .title h1{
+    font-family: 'Rhythm Block', sans-serif;
+    color: whitesmoke;
+    font-size: 70px;
+}
+
+.header .title p {
+    font-family: 'Mollen Personal Use', sans-serif;
+    color: whitesmoke;
+    font-size: 30px;
+    margin: 12px;
+}
+
+.header .title a {
+    display: inline-block;
+    margin-top: 20px;
+    font-family: 'Odin Rounded', sans-serif;
+    text-decoration: none;
+    border: 3px solid rgb(122, 255, 166); 
+    border-radius: 12px;
+    padding: 12px 28px;
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+.header img {
+    height: auto;
+    min-width: 300px;
+    width: 500px;
+    max-width: 800px;
+    margin-right: 32px;
+    border-radius: 22px;
+    flex: 1;
+}
+
+.main {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.main h2 {
+    font-family: 'Rhythm Block', sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    padding: 24px;
+    margin-bottom: 16px;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.main .container {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.main .container .image {
+    width: auto;
+    margin: 0 30px 20px;
+    text-align: center;
+    font-family: 'Rhythm Block', sans-serif;
+    font-size: 19px;
+    color: whitesmoke;
+}
+
+.main .container img{
+    object-fit: cover;
+    width: 300px;
+    height: auto;
+    border-radius: 16px;
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+.follow {
+    height: auto;
+    text-align: center;
+    background-color: rgb(197, 197, 197);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 130px;
+}
+
+.follow .follow-container {
+    margin: 0 auto;
+    width: 50%;
+    font-size: 32px;
+}
+
+.follow .follow-container h2 {
+    justify-content: center;
+    font-family: 'Rhythm Block', sans-serif;
+    color: rgb(37, 37, 37);
+}
+
+.follow ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+}
+
+.follow ul li a {
+    border-radius: 50%;
+    margin: 0 19px;
+}
+
+.contact .contact-container {
+    height: 599px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(66, 66, 66);
+}
+
+.contact .contact-container h2 {
+    font-family: 'Rhythm Block', sans-serif;
+    color: whitesmoke;
+    font-size: 70px;
+    margin: 0px;
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-bottom: 23px;
+}
+
+.contact .contact-container p {
+    font-family: 'Mollen Personal Use', sans-serif;
+    color: whitesmoke;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+.footer {
+    background-color: black;
+    font-family: 'Mollen Personal Use', sans-serif;
+    color: whitesmoke;
+    height: 10vh;
+    display: flex;
+    margin-left: 30px;
+    justify-content: left;
+    align-items: center;
+}
